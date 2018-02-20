@@ -1,5 +1,7 @@
 package com.softuni.softunidemo;
 
+import com.softuni.softunidemo.data.Tweet;
+
 import java.util.List;
 
 public class TweetFormatter {

@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "602100718220-ak12j58ptepchsrnb11i7inq5duj8qjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softuni.softunidemo",
+            "certificate_hash": "71b913eff50468e606d7c5d9ea042369c1476ebb"
+          }
+        },
+        {
           "client_id": "602100718220-a7sgkp1fit2ja23hq7vl69nfi536puhf.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

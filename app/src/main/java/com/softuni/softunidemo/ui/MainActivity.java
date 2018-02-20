@@ -1,6 +1,5 @@
-package com.softuni.softunidemo;
+package com.softuni.softunidemo.ui;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -13,13 +12,18 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.softuni.softunidemo.R;
+import com.softuni.softunidemo.data.Tweet;
+import com.softuni.softunidemo.TweetFormatter;
+import com.softuni.softunidemo.data.DatabaseManager;
+import com.softuni.softunidemo.data.LoginManager;
+
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import static android.Manifest.permission.READ_CONTACTS;
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 
 public class MainActivity extends AppCompatActivity {

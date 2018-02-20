@@ -1,19 +1,17 @@
-package com.softuni.softunidemo;
+package com.softuni.softunidemo.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.firebase.auth.FirebaseUser;
+import com.softuni.softunidemo.R;
+import com.softuni.softunidemo.data.LoginManager;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-
-import static android.content.ContentValues.TAG;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -68,7 +66,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void redirectToMainScreen() {
-        startActivity(new Intent(this, MainActivity.class));
+        startActivity(new Intent(this, Main2Activity.class));
         finish();
     }
 }

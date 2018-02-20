@@ -1,9 +1,13 @@
-package com.softuni.softunidemo;
+package com.softuni.softunidemo.data;
 
 public class Tweet {
+    public static final String TYPE_TEXT = "text";
+    public static final String TYPE_IMAGE = "image";
+
     public String userEmail;
     public String type;
     public String content;
+    public long timestamp;
 
     public Tweet() {
     }
